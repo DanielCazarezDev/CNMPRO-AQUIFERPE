@@ -33,7 +33,6 @@ function UserDashboard(props) {
         licenseNumber: '',
         yearsOfExperience: 0,
         desiredHourlyRate: '',
-        isActive: '',
     });
     const [dashboardData, setDashboardData] = useState({});
     const [loading, setLoading] = useState(false);
