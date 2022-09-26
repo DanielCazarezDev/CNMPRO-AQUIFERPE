@@ -9,6 +9,7 @@ import './filemanager.css';
 const _logger = debug.extend('FileManagerUploader');
 
 function FManagerActions(props) {
+    
     const onHandleUploadSuccess = (data) => {
         _logger('on handle upload success', data);
         props.onSuccessFileUpload(data);
