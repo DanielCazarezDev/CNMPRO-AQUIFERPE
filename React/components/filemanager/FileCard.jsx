@@ -7,6 +7,7 @@ import { FaFile, FaTrashAlt, FaUndo } from 'react-icons/fa';
 const _logger = debug.extend('FileCard');
 
 function FileCard(props) {
+    
     const aFile = props.file;
 
     const deleteCard = (e) => {
