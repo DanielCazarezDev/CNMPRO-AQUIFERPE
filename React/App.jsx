@@ -1,3 +1,6 @@
+// Modified to remove keys/propietary data.....
+
+
 import React, { Suspense, useState, useEffect, useCallback } from 'react';
 import logger from 'sabio-debug';
 import { Routes, Route, useLocation } from 'react-router-dom';
@@ -13,6 +16,7 @@ const DEFAULT_USER = {
     email: '',
     isLoggedIn: false,
 };
+
 const loading = () => <div className="">loading....</div>;
 const _logger = logger.extend('App');
 _logger('publicProtectedFlattenRoutes', publicProtectedFlattenRoutes);
