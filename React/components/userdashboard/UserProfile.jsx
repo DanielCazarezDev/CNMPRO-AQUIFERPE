@@ -9,6 +9,7 @@ const _logger = debug.extend('UserProfile');
 
 const UserProfile = (props) => {
     _logger(props.userProfileData);
+    
     const [data] = useState(props.userProfileData);
 
     const editClicked = (e) => {
