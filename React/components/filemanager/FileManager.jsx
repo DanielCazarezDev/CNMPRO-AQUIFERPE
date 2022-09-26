@@ -13,6 +13,7 @@ import './filemanager.css';
 const _logger = debug.extend('FileManager');
 
 function FileManager() {
+    
     const [fileData, setFileData] = useState({
         arrayOfFiles: [],
         fileArrayMapped: [],
