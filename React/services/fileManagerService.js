@@ -4,6 +4,7 @@ import { onGlobalError, onGlobalSuccess, API_HOST_PREFIX } from './serviceHelper
 const fileUrl = `${API_HOST_PREFIX}/api/files`;
 
 const getAll = (pgIndex, pgSize) => {
+    
     const config = {
         method: 'GET',
         url: `${fileUrl}/paginate?pageIndex=${pgIndex}&pageSize=${pgSize}`,
