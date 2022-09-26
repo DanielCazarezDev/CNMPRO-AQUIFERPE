@@ -4,7 +4,7 @@ Aquifer PE is an MVP and due to the proprietary nature of the code I can only pr
 
 This Repository consists of my contribution to the creation of CNM PRO / Aquifer PE. I was responsible for the creation of the File Manager with administrator access and the front end for the User Dashboard features.
 
-## Skill Set 🛠️  
+## Skill Set Utilized 🛠️  
 <table><tr><td valign="top" width="33%">
 
 
