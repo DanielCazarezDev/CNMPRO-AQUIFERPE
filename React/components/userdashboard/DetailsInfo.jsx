@@ -5,6 +5,7 @@ import PropTypes from 'prop-types';
 import debug from 'sabio-debug';
 
 const _logger = debug.extend('DetailsInfo');
+
 const DetailsInfo = (props) => {
     _logger(props.userProfileData);
 
